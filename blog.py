@@ -1,18 +1,14 @@
 import bottle
 
-import pymongo
 import cgi
 import re
 import datetime
-import random
-import hmac
 import user
 import sys
 
 from pymongo import MongoClient
 
 connection = MongoClient('localhost', 27017)
-
 
 @bottle.route('/')
 def blog_index():

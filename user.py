@@ -1,6 +1,5 @@
 import bottle
 
-import cgi
 import re
 import hmac
 import random
